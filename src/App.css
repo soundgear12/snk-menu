@@ -7,6 +7,7 @@
   display: grid;
   column-count: 3;
   grid-template-columns: 200px 200px 200px;  
+  column-gap: 5px;
     
   
  
@@ -17,6 +18,11 @@
    height: 140px; 
    background: #d8bf04;
    margin-left: 140px;
+   outline-style: solid;
+   outline-color: black;
+   outline-width: 4px;
+   
+   
    /* Rotate */
    -webkit-transform: rotate(-45deg);
    -moz-transform: rotate(-45deg);

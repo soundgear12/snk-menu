@@ -9,12 +9,13 @@ function App() {
       </div>
 
       <div className='cell'>
-        Arcade Mode
+        Survival Mode
       </div>
 
       <div className='cell'>
         Arcade Mode
       </div>
+     
       
     </div>
   );
