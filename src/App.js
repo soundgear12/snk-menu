@@ -6,22 +6,30 @@ function App() {
     <div>
       <div className="row-1">
         <div className='cell'>
-          Arcade Mode
+          <div className='cell-text'>
+            <p>ARCADE <br></br>MODE</p>
+          </div>
         </div>
 
         <div className='cell'>
-          Survival Mode
+          <div className='cell-text'>
+            <p>SURVIVAL <br></br>MODE</p>
+          </div>
         </div>
 
         <div className='cell'>
-          VS Mode
+        <div className='cell-text'>
+            <p>VS <br></br>MODE</p>
+          </div>
         </div>
 
       </div>
 
       <div className="row-2">
         <div className='cell'>
-          Training Mode
+        <div className='cell-text'>
+            <p>TRAINING <br></br>MODE</p>
+          </div>
         </div>
 
         <div className='cell'>
@@ -29,17 +37,23 @@ function App() {
         </div>
 
         <div className='cell'>
-          Color Edit Mode
+        <div className='cell-text'>
+            <p>COLOR<br></br>MODE</p>
+          </div>
         </div>
       </div>
 
       <div className="row-3">
         <div className='cell'>
-          Replay Mode
+        <div className='cell-text'>
+            <p>REPLAY <br></br>MODE</p>
+          </div>
         </div>
 
         <div className='cell'>
-          Option Mode
+        <div className='cell-text'>
+            <p>OPTION <br></br>MODE</p>
+          </div>
         </div>
 
         <div className='cell'>

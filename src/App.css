@@ -37,9 +37,8 @@
    outline-color: black;
    outline-width: 4px;
    margin-top: -37px;
-   
-   
-   
+   font-size: large;
+  
    /* Rotate */
    -webkit-transform: rotate(-45deg);
    -moz-transform: rotate(-45deg);
@@ -52,5 +51,19 @@
    -ms-transform-origin: 0 100%;
    -o-transform-origin: 0 100%;
    transform-origin: 0 100%;
-   
+}
+
+.cell-text {
+  text-align: center;
+  transform: rotate(45deg);
+  position: relative;
+  left: 0px;
+  top: 10px;
+  margin-right: 0px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:28px;
+  font-weight: bold;
+  -webkit-text-stroke: .05px white; 
+  
+  
 }
