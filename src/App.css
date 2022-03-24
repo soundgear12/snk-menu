@@ -2,15 +2,30 @@
   text-align: center;
 }
 
-.menu {
+.row-1 {
   margin-top: 140px;
   display: grid;
   column-count: 3;
   grid-template-columns: 200px 200px 200px;  
   column-gap: 5px;
-    
+  margin-bottom: 0px;
   
- 
+}
+
+.row-2 {
+  margin-left: 103px;
+  display: grid;
+  column-count: 3;
+  grid-template-columns: 200px 200px 200px;  
+  column-gap: 5px;
+}
+
+.row-3 {
+  margin-left: 206px;
+  display: grid;
+  column-count: 3;
+  grid-template-columns: 200px 200px 200px;  
+  column-gap: 5px;
 }
 
 .cell {
@@ -21,6 +36,8 @@
    outline-style: solid;
    outline-color: black;
    outline-width: 4px;
+   margin-top: -37px;
+   
    
    
    /* Rotate */
