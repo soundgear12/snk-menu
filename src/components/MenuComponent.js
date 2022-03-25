@@ -14,6 +14,7 @@ export default class MenuComponent extends Component {
     return (
       <div className='page'>
         <h1 className='title'>Bits and Bites</h1>
+        <hr className='line-1'></hr>
         <div className='menu'>
 
           <div className="row-1">
