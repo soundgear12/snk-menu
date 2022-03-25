@@ -1,5 +1,19 @@
 .App {
-  text-align: center;
+  
+}
+
+.page {
+
+
+}
+
+.menu {
+  display: block;
+  margin-top: 15%;
+  margin-left: 20%;
+  margin-right: auto;
+  width: 40%;
+  
 }
 
 .row-1 {
@@ -39,6 +53,7 @@
    margin-top: -37px;
    font-size: large;
   
+  
    /* Rotate */
    -webkit-transform: rotate(-45deg);
    -moz-transform: rotate(-45deg);
@@ -55,6 +70,10 @@
 
 .cell:hover {
   background: #FFC80C;
+  outline-color: #C6CACA;
+  /* transform: scale(1.1); */
+
+  
 }
 
 .cell-text {
@@ -68,6 +87,8 @@
   font-size:28px;
   font-weight: bold;
   -webkit-text-stroke: .05px white; 
-  
-  
+}
+
+link {
+  color:black
 }
